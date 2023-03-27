@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <body>
+    <h2>etiquetas de HTML</h2>
+    <main>
+      <h3>imagenes de PCs</h3>   
+      <p>Haz click aqui para ver mas <a href="https://www.google.com/search?q=pc+gamers&sxsrf=AJOqlzVHLPhkNokRC9Gg0TV93Z40aOtiGQ:1679592799867&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj6_M_hyvL9AhVqiO4BHcDWAp0Q_AUoAXoECAEQAw&biw=958&bih=931&dpr=1#imgrc=GzzrtUbl6VleNM" target="_blank" rel="noopener noreferrer">imagenes de PCs</a></p>
+      <ul> 
+        <li><a href="#body1">BODY</a></li>
+        <li><a href="#head1">HEAD</a></li>
+        <li><a href="#div1">DIV</a></li>
+        <li><a href="#a1">A</a></li>
+        <li><a href="#strong1">STRONG</a></li>
+        <li><a href="#br1">BR</a></li>
+        <li><a href="#h1h6">H1 AL H6</a></li>
+        <li><a href="#img1">IMG</a></li>
+      </ul>
+
+      <a href="https://www.google.com/search?q=pc+gamers&sxsrf=AJOqlzVHLPhkNokRC9Gg0TV93Z40aOtiGQ:1679592799867&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj6_M_hyvL9AhVqiO4BHcDWAp0Q_AUoAXoECAEQAw&biw=958&bih=931&dpr=1#imgrc=IfF2RFFqk1SUiM" target="_blank" rel="noopener noreferrer">
+        <img src="imagenes/0-PC-gamer.jpg">
+      </a>
+
+      <hr>
+
+      <h3 id="body1">Body </h3>
+        <p><strong>Indica</strong> la parte del cuerpo del contenido de un documento HTML. Es una etiqueta esencial para cualquier documento ya que indica donde empieza el contenido visible del documento.</p>
+
+      <h3 id="head1">head</h3>
+        <p>La parte superior del documento HTML, es donde podremos indicar los metadatos: título del documento, hojas de estilos, javaScript, CSS…</p>
+      
+      <h3 id="div1">div</h3>
+        <p>Un elemento que es usado mayoritariamente para agrupar otros elementos y actuar como plantilla de otros controles. La etiqueta <div> nos ayuda a estructurar el documento en secciones.</p>
+
+      <h3 id="a1">a</h3>
+        <p>Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El atributo principal de la etiqueta HTML es href, donde pondremos el enlace al que queremos conectar. Otro atributo muy usado es target, el cual nos sirve para indicar si el enlace se abrirá en una nueva ventana o en la misma.
+
+          Ejemplo HTML:
+          
+          Pulsa <a href=”https://www.nombredelaweb.com/” target=”_blank”>aquí</a> para visitar DonDominio.</p>
+          
+      <h3 id="strong1">strong</h3>
+        <p>Si tienes mucho texto, es importante poder dar énfasis a una parte en concreto, con la etiqueta strong lo podemos hacer.
+            Ejemplo HTML:
+
+            Quiero destacar solo <strong>esta palabra</strong>.</p>
+
+      <h3 id="br1">br</h3>
+        <p>Con esta etiqueta HTML le podemos decir al navegador que viene un salto de línea. Nos sirve para hacer el texto más leíble.</p>
+
+      <h3 id="h1h6">h1 al h6</h3>
+        <p>Hay diferentes niveles de títulos, del 1 al 6. Las etiquetas <H + número> nos permiten indicar la importancia del título y para estructurar el contenido, de esta forma ayudamos a los bots a entender la importancia del contenido.</p>
+
+      <h3 id="img1">img</h3>
+          <p>Usamos la etiqueta IMG para mostrar imágenes dentro del contenido. Necesita el atributo src para funcionar, ya que será donde indicaremos desde donde tiene que mostrar la imagen.</p>
+      
+      <h3>ol, li, ul,</h3>
+        <p>Las etiquetas OL y LI nos sirven para crear listas, OL para listas ordenadas y UL para listas sin orden. Dentro de las listas, los elementos se identifican con la etiqueta LI.
+
+            Ejemplo HTML:
+            
+            <li>Primer elemento</li>
+            
+            <li>Segundo elemento</li></p>
+
+      <h3>p</h3>
+        <p>Etiqueta que nos sirve para agrupar texto dentro de un parágrafo. El propósito es poder hacer el contenido más fácil de leer y organizado.</p>  
+
+      <h3>span</h3>
+          <p>Con la etiqueta podemos personalizar el estilo de solamente una parte del texto.
+
+            Ejemplo HTML:
+
+      <h3>linea</h3>
+        <p>se utiliza hr para poner una linea que divida</p>      
+
+        <hr>
+      <!--formulario-->
+      <form action="/enviar-respuesta">
+        <input type="text" placeholder="URL de la foto de tu gato" required><br>
+
+        <button type="submit">Enviar</button><br>
+      <!--botones de radio-->
+        <label for="interior"><input id="interior" type="radio" name="interior-exterior">Interior</label><br>
+        <label for="exterior"><input id="exterior" type="radio" name="interior-exterior">Exterior</label><br>
+      <!--casillas de verificacion-->
+      <p>COSAS QUE LE GUSTAN A LOS GATOS</p>
+      <label for="bañarse"><input id="bañarse" type="checkbox">Bañarse</label><br>
+      <label for="ensuciarse"><input id="Ensuciarse" type="checkbox">Ensuciarse</label><br>
+      <label for="dormir"><input id="dormir" type="checkbox">dormir</label><br>
+
+
+
+
+      </form>
+
+
+    </main>
+  </body>
+</html>
