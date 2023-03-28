@@ -6,24 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Online</title>
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li>Inicio</li>
-                <li>Productos</li>
-                <li>Contactos</li>
-                <li>Galeria</li>
-                <li>Carrito de compras</li>
-                <li>Iniciar Sesion</li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#Productos">Productos</a></li>
+                <li><a href="#Contactos">Contactos</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#carrito">Carrito de compras</a></li>
+                <li><a href="#Iniciar-sesion">Iniciar Sesion</a></li>
             </ul>
         </nav>
     </header>
-    <h1>Warning With the Dog</h1>
+    <h1 id="inicio">Warning With the Dog</h1>
     <img src="https://picsum.photos/200" alt="Logo de la Tienda">
-    <article>
+    <article id="galeria">
         <section>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores animi nostrum nemo voluptatibus
                 delectus et corporis tempore doloribus corrupti. </p>
@@ -37,7 +38,36 @@
 
         </section>
     </article>
-    <h3>¿Cuales productos Compraras?</h3>
+
+    <form action="" id="Productos">
+        <select name="Elegir" id="">
+            <option value="Articulo_1">Articulo 1</option>
+            <option value="Articulo_2">Articulo 2</option>
+            <option value="Articulo_3">Articulo 3</option>
+        </select>
+    </form>
+    <section id="Contactos" class="Contactos">
+        <table>
+            <tr>
+                <th>Nombre de contacto</th>
+                <th>Telefono</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Elias Guillermo</td>
+                <td>1234567890</td>
+                <td>mail@mail.com</td>
+            </tr>
+        </table>
+
+        <div class="ubicacion">
+            <h3>ubicacion</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1880.2612772151217!2d-96.89413005157833!3d19.51916669058046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db321af4d2b24d%3A0x6dcef75b136c4ceb!2sCOVEICyDET!5e0!3m2!1ses!2smx!4v1679986059680!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!--Liga de google maps-->
+        </div>
+    </section>
+    <h3
+    id="carrito">¿Cuales productos Compraras?</h3>
     <form action="">
         <input type="checkbox" value="Pan">Pan</input>
         <input type="checkbox" value="Cereal">Cereal</input>
@@ -46,7 +76,7 @@
         <input type="submit">
     </form>
     <section>
-        <form action="">
+        <form action="" id="Iniciar-sesion">
             <p>Nombres:</p>
             <input placeholder="Nombres" type="text" name="Nombre">
             <p>Apellidos:</p>
