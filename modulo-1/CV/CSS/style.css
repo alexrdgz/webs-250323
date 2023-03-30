@@ -1,9 +1,36 @@
+* {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  box-sizing: border-box;
+  outline: 1px solid red;
+}
+
 body {
-    background-color: orange;
+  background-color: orange;
 }
 
 .profile-picture {
-    height:300px;
-    width: 300px;
-    border-radius: 75%;
+  height: 300px;
+  width: 300px;
+  border-radius: 75%;
+  margin: 20px;
+}
+
+#my-info {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+}
+
+.my-info_contact p {
+  margin: 5px;
+}
+.my-grade_profesional {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.Courses {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
